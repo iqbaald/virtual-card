@@ -15,14 +15,14 @@ body {
   display: grid;
   place-items: center;
   font: 400 16px/1.5 "Poppins", sans-serif;
-  background-color: #072f5f;
+  background-color: #5f040d;
 }
 
 .card {
   max-width: 300px;
-  margin: 2rem;
+  margin: 1rem;
   background-color: #fffff9;
-  border-radius: 1rem;
+  border-radius: 1.2rem;
   box-shadow: 0 30px 20px -10px rgba(0, 0, 0, 0.2);
 }
 
@@ -38,10 +38,10 @@ body {
 .card .top {
   position: relative;
   width: 300px;
-  height: 360px;
+  height: 300px;
   color: #fffff9;
   border-radius: 1rem 1rem 0 0;
-  background: url("https://i.pinimg.com/564x/fb/ca/55/fbca559bda6a4a5582ee8124236712d3.jpg")
+  background: url("https://avatars.githubusercontent.com/u/141462400?s=400&u=08da6c4d5b6861cf921c5025e6129e2c8f5893a9&v=4")
     no-repeat center top;
   transition: background-size 1.5s ease-in-out;
   background-size: 100%;
@@ -81,13 +81,13 @@ body {
 
 .card .top .social-buttons button a {
   font-size: 1rem;
-  color: #adc0d8;
+  color: #c78585;
   cursor: pointer;
   text-decoration: none;
 }
 
 .card .top .social-buttons button:hover a {
-  color: #fffff9;
+  color: #c78585;
   transform: scale(1.5);
 }
 
@@ -121,7 +121,7 @@ body {
 .card .top .text .name-wrapper i {
   font-size: 1rem;
   margin-left: 0.6rem;
-  color: #009abf;
+  color: #faa9a9;
 }
 
 .card .top .text .name-wrapper .name {
@@ -134,8 +134,8 @@ body {
 }
 
 .card .bottom {
-  padding: 1rem 1.5rem 0.8rem;
-  background-color: #3895d3;
+  padding: 0.5rem 1.5rem 0.8rem;
+  background-color: #a30000;
   border-radius: 0 0 1rem 1rem;
 }
 
@@ -156,12 +156,13 @@ body {
   margin-right: 0.5rem;
   color: #1d252c;
   font-size: 0.7rem;
-  background-color: #1261a0;
+  background-color: #e03030;
   border-radius: 1em;
 }
 
 .height {
   color: #fffff9;
+  text-decoration: none;
 }
 
 .card .bottom .buttons button i {
@@ -169,5 +170,5 @@ body {
 }
 
 .card .bottom .buttons button:hover {
-  filter: brightness(110%);
+  filter: brightness(120%);
 }

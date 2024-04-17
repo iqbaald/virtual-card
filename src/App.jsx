@@ -1,5 +1,7 @@
 import Header from "./components/Header";
 import Identify from "./components/Identify";
+import Biodata from "./components/Biodata";
+import Highlight from "./components/Highlight";
 
 import "./App.css";
 
@@ -11,7 +13,10 @@ function App() {
           <Header />
           <Identify />
         </div>
-        <div className="bottom"></div>
+        <div className="bottom">
+          <Biodata />
+          <Highlight />
+        </div>
       </div>
     </>
   );

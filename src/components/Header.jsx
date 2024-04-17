@@ -7,8 +7,14 @@ function Header() {
           icon="fa-instagram"
           link="https://www.instagram.com/iqbaaldhoifulloh/"
         />
-        <SocialButton icon="fa-facebook" link="https://www.facebook.com/" />
-        <SocialButton icon="fa-twitter" link="https://twitter.com/" />
+        <SocialButton
+          icon="fa-code"
+          link="https://www.codewars.com/users/iqbaald"
+        />
+        <SocialButton
+          icon="fa-youtube"
+          link="hhttps://www.youtube.com/@iqbaaldhoifulloh8270"
+        />
       </div>
       <div className="social-buttons right">
         <SocialButton

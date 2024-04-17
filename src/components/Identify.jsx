@@ -2,9 +2,9 @@ function Identify() {
   return (
     <div className="text">
       <div className="name-wrapper">
-        <div className="name">Meowkuy</div>
+        <div className="name">M. Iqbaal Dhoifulloh</div>
       </div>
-      <div className="title">Meow Engineer</div>
+      <div className="title">Software Engineer</div>
     </div>
   );
 }
